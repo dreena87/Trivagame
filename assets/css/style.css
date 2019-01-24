@@ -6,6 +6,8 @@ body {
 body {
   text-align: center;
   background-image: url("../images/earth.jpg.jpg");
+  background-size: cover;
+  
 }
 
 #wrapper {
@@ -15,6 +17,7 @@ body {
   padding: 5% 0;
   margin: 5% auto;
   background-image: url("../images/1r1HbTX.jpg");
+  opacity: 10.9;
 }
 
 #sub-wrapper {
@@ -31,6 +34,7 @@ button {
   cursor: pointer;
   background: transparent;
   border: 0;
+  color: aliceblue
 }
 
 h1 {
@@ -59,7 +63,7 @@ h3 {
   border: 2px solid white;
 }
 
-#quiz-area h2 radio {
+#quiz-area  {
   margin-top: 50px;
   color: white;
 }
@@ -67,4 +71,7 @@ h3 {
 button:hover {
   background: purple;
   border: 2px solid white;
+}
+.link {
+  color: white;
 }
